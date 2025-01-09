@@ -11,14 +11,14 @@ console.log('Formatted Date:', formattedDate);
 const relativeDate = dateFormatter.formatRelative(new Date(Date.now() - 86400000)); // 1 day ago
 console.log('Relative Date:', relativeDate);
 
-// Test the formatCustomMessage method
-const customMessage = dateFormatter.formatCustomMessage('Hello, {name}!', { name: 'John' });
-console.log('Custom Message:', customMessage);
-
 // Test with different locales
 const dateFormatterFR = new DateFormatter('fr');
 const formattedDateFR = dateFormatterFR.format(new Date());
-console.log('Formatted Date (FR):', formattedDateFR);
+console.log('Formatted Date (Fr):', formattedDateFR);
+
+const dateFormatterAR = new DateFormatter('ar');
+const formattedDateAR = dateFormatterAR.format(new Date());
+console.log('Formatted Date (AR):', formattedDateAR);
 
 const dateFormatterDE = new DateFormatter('de');
 const formattedDateDE = dateFormatterDE.format(new Date());

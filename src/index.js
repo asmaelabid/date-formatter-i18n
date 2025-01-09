@@ -1,5 +1,5 @@
 import { format, formatRelative } from "date-fns";
-import { enUS, fr, de } from "date-fns/locale";
+import { enUS, fr, de, ar } from "date-fns/locale";
 import { IntlMessageFormat } from "intl-messageformat";
 
 /**
@@ -8,7 +8,7 @@ import { IntlMessageFormat } from "intl-messageformat";
 class DateFormatter {
   constructor(locale = "en") {
     this.locale = locale;
-    this.localesMap = { en: enUS, fr, de };
+    this.localesMap = { en: enUS, fr, de, ar };
   }
 
   // Format a date into a specified format
@@ -21,12 +21,6 @@ class DateFormatter {
   formatRelative(date, baseDate = new Date()) {
     const locale = this.localesMap[this.locale] || enUS;
     return formatRelative(new Date(date), baseDate, { locale });
-  }
-
-  // Add custom messages for localization
-  formatCustomMessage(messageTemplate, values) {
-    const msgFormatter = new IntlMessageFormat(messageTemplate, this.locale);
-    return msgFormatter.format(values);
   }
 }
 
