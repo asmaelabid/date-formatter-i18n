@@ -1,6 +1,6 @@
-const { format, formatRelative } = require("date-fns");
-const { enUS, fr, de } = require("date-fns/locale");
-const IntlMessageFormat = require("intl-messageformat");
+import { format, formatRelative } from "date-fns";
+import { enUS, fr, de } from "date-fns/locale";
+import { IntlMessageFormat } from "intl-messageformat";
 
 /**
  * A utility for formatting dates with i18n support.
@@ -30,4 +30,4 @@ class DateFormatter {
   }
 }
 
-module.exports = DateFormatter;
+export default DateFormatter;
