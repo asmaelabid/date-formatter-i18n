@@ -1,0 +1,24 @@
+{
+  "name": "date-formatter-i18n",
+  "version": "1.0.0",
+  "description": "A lightweight and developer-friendly **date formatting library** with full **i18n (internationalization)** support. Easily format dates into human-readable strings, customize relative time (\"3 days ago\"), and create localized messages. Perfect for multilingual web and mobile applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmaelabid/date-formatter-i18n.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmaelabid/date-formatter-i18n/issues"
+  },
+  "homepage": "https://github.com/asmaelabid/date-formatter-i18n#readme",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "intl-messageformat": "^10.7.11"
+  }
+}
