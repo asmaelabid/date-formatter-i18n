@@ -1,6 +1,5 @@
 import { format, formatRelative } from "date-fns";
 import { enUS, fr, de, ar } from "date-fns/locale";
-import { IntlMessageFormat } from "intl-messageformat";
 
 /**
  * A utility for formatting dates with i18n support.
