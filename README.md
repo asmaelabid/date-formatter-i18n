@@ -1,10 +1,12 @@
-# Date Formatter Localized 📅
+# Date Formatter Localized i18n 📅
 
 A lightweight and developer-friendly **date formatting library** with full **i18n (internationalization)** support. Easily format dates into human-readable strings, customize relative time ("3 days ago"), and create localized messages. Perfect for multilingual web and mobile applications.
+[![NPM Version](https://img.shields.io/npm/v/date-formatter-i18n)](https://www.npmjs.com/package/date-formatter-i18n) 
+[![License](https://img.shields.io/npm/l/date-formatter-i18n)](https://github.com/asmaelabid/date-formatter-i18n/blob/main/LICENSE)
 
 ---
 
-## 💡 Why Choose date-formatter-localized?
+## 💡 Why Choose date-formatter-i18n?
 If you're looking for a lightweight, highly customizable, and i18n-ready date formatter, this package simplifies date handling for multilingual applications. It's designed with developers in mind, offering essential features without the bloat.
 
 ---
@@ -22,15 +24,15 @@ If you're looking for a lightweight, highly customizable, and i18n-ready date fo
 Install the package via NPM or Yarn:
 
 ```bash
-npm install date-formatter-localized
+npm install date-formatter-i18n
 # or
-yarn add date-formatter-localized
+yarn add date-formatter-i18n
 ```
 
 ## 📚 Usage
   - Import the Library
 ```js
-import DateFormatter from 'date-formatter-localized';
+import DateFormatter from 'date-formatter-i18n';
 
 // Create an instance of DateFormatter
 const dateFormatter = new DateFormatter('en');
