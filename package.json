@@ -1,6 +1,6 @@
 {
   "name": "date-formatter-i18n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight and developer-friendly **date formatting library** with full **i18n (internationalization)** support. Easily format dates into human-readable strings, customize relative time (\"3 days ago\"), and create localized messages. Perfect for multilingual web and mobile applications.",
   "keywords": ["date formatting", "i18n", "localization", "JavaScript", "relative time", "date library"],
   "main": "index.js",
